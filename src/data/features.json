@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Network Security",
+    "description": "Advanced tools for monitoring and securing network infrastructure against unauthorized access and data breaches.",
+    "icon": "🔒",
+    "details": "Our network security solutions provide comprehensive protection for your digital infrastructure. Monitor traffic patterns, detect intrusion attempts, and secure your data with military-grade encryption. Features include firewall management, intrusion detection systems, and real-time threat monitoring."
+  },
+  {
+    "id": 2,
+    "title": "Penetration Testing",
+    "description": "Comprehensive suite of ethical hacking tools to identify and address security vulnerabilities.",
+    "icon": "🛡️",
+    "details": "Our penetration testing framework allows security professionals to simulate real-world attacks in controlled environments. Identify vulnerabilities before malicious actors do, with tools for reconnaissance, vulnerability scanning, exploitation, and post-exploitation analysis."
+  },
+  {
+    "id": 3,
+    "title": "Threat Intelligence",
+    "description": "Real-time monitoring and analysis of emerging cyber threats and attack vectors.",
+    "icon": "🔍",
+    "details": "Stay ahead of cyber criminals with our advanced threat intelligence platform. Receive real-time alerts about emerging threats, analyze attack patterns, and implement proactive security measures. Our global threat database is updated continuously to provide the most current information."
+  },
+  {
+    "id": 4,
+    "title": "Security Training",
+    "description": "Interactive learning resources to develop cybersecurity skills and stay ahead of attackers.",
+    "icon": "📚",
+    "details": "Build your cybersecurity expertise with our comprehensive training modules. From beginner concepts to advanced techniques, our interactive courses cover everything from basic security principles to specialized topics like reverse engineering, malware analysis, and secure coding practices."
+  },
+  {
+    "id": 5,
+    "title": "Incident Response",
+    "description": "Rapid response protocols and tools to address security breaches and minimize damage.",
+    "icon": "🚨",
+    "details": "When security incidents occur, our incident response toolkit helps you contain the threat, eradicate the cause, and recover systems quickly. Includes automated forensic analysis, containment tools, and detailed reporting capabilities to prevent future incidents."
+  },
+  {
+    "id": 6,
+    "title": "Secure Communications",
+    "description": "End-to-end encrypted messaging and file sharing for sensitive information.",
+    "icon": "🔐",
+    "details": "Protect your sensitive communications with our secure messaging platform. Features include end-to-end encryption, ephemeral messaging, secure file transfers, and verification protocols to ensure your confidential information remains private."
+  }
+] 

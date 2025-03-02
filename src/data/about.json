@@ -1,0 +1,49 @@
+{
+  "mission": "At Matrix, our mission is to empower individuals and organizations with the tools and knowledge needed to navigate the digital landscape securely. We believe in a proactive approach to cybersecurity, where prevention and education are as important as detection and response.",
+  "vision": "We envision a digital world where security is accessible to everyone, not just large corporations with extensive resources. By democratizing cybersecurity tools and knowledge, we aim to create a safer online environment for all.",
+  "history": "Founded in 2018 by a team of cybersecurity experts with backgrounds in ethical hacking, network security, and digital forensics, Matrix began as a small research project focused on developing open-source security tools. Today, we've grown into a comprehensive platform serving security professionals, organizations, and enthusiasts worldwide.",
+  "team": [
+    {
+      "name": "Aditya Praksh",
+      "role": "Core",
+      "bio": "",
+      "image": "AP.jpg"
+    },
+    {
+      "name": "Kartik Puri",
+      "role": "Core",
+      "bio": "",
+      "image": "KP.jpg"
+    },
+    {
+      "name": "Vivek Wagadre",
+      "role": "Core",
+      "bio": "",
+      "image": "VW.jpg"
+    },
+    {
+      "name": "Kanishk Ranjan",
+      "role": "Core",
+      "bio": "",
+      "image": "KR.jpg"
+    }
+  ],
+  "values": [
+    {
+      "title": "Integrity",
+      "description": "We operate with the highest ethical standards, ensuring transparency in our tools and practices."
+    },
+    {
+      "title": "Innovation",
+      "description": "We continuously research and develop new approaches to address evolving security challenges."
+    },
+    {
+      "title": "Accessibility",
+      "description": "We believe security should be accessible to everyone, regardless of technical background or resources."
+    },
+    {
+      "title": "Community",
+      "description": "We foster a collaborative community where knowledge sharing strengthens our collective security."
+    }
+  ]
+} 

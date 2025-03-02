@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Network Scanner",
+    "description": "Discover and map devices on your network, identify open ports and potential vulnerabilities.",
+    "category": "Reconnaissance",
+    "details": "Our advanced network scanner provides comprehensive visibility into your network infrastructure. Identify all connected devices, open ports, running services, and potential security gaps. Features include automated scanning, custom scan profiles, and detailed reporting.",
+    "features": [
+      "Automated network discovery",
+      "Port scanning and service identification",
+      "OS fingerprinting",
+      "Vulnerability assessment",
+      "Custom scan scheduling"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Password Cracker",
+    "description": "Test password strength and recover lost passwords using advanced algorithms.",
+    "category": "Access",
+    "details": "Our password recovery tool helps security professionals test password policies and recover lost credentials. Utilizing multiple attack methods including dictionary attacks, brute force, and rainbow tables, this tool can be used to audit password security across your organization.",
+    "features": [
+      "Multiple attack methods",
+      "GPU acceleration",
+      "Custom wordlist creation",
+      "Password policy testing",
+      "Distributed cracking capabilities"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Traffic Analyzer",
+    "description": "Monitor and inspect network traffic to detect suspicious activities and data exfiltration.",
+    "category": "Monitoring",
+    "details": "Gain deep visibility into your network traffic with our advanced packet analysis tool. Monitor data flows, inspect packet contents, and identify suspicious patterns that may indicate security threats or data exfiltration attempts.",
+    "features": [
+      "Real-time traffic monitoring",
+      "Deep packet inspection",
+      "Protocol analysis",
+      "Anomaly detection",
+      "Traffic visualization"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Exploit Framework",
+    "description": "Comprehensive platform for testing security vulnerabilities in controlled environments.",
+    "category": "Penetration Testing",
+    "details": "Our exploit framework provides security professionals with a comprehensive toolkit for testing system security. With a database of known vulnerabilities and exploits, this platform allows for controlled testing of security measures to identify and address weaknesses.",
+    "features": [
+      "Extensive exploit database",
+      "Custom exploit development",
+      "Automated vulnerability scanning",
+      "Post-exploitation tools",
+      "Reporting and documentation"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Encryption Tool",
+    "description": "Secure your sensitive data with military-grade encryption algorithms.",
+    "category": "Defense",
+    "details": "Protect your sensitive information with our advanced encryption tool. Supporting multiple encryption standards including AES, RSA, and ChaCha20, this tool ensures your data remains secure both at rest and in transit.",
+    "features": [
+      "File and folder encryption",
+      "Disk encryption",
+      "Secure key management",
+      "Multiple encryption algorithms",
+      "Secure deletion capabilities"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Forensic Analyzer",
+    "description": "Recover and analyze digital evidence for security incident investigations.",
+    "category": "Investigation",
+    "details": "Our digital forensics toolkit provides investigators with powerful capabilities for evidence collection and analysis. Recover deleted files, analyze system artifacts, and create detailed timelines of system activity to support security incident investigations.",
+    "features": [
+      "File recovery",
+      "Memory analysis",
+      "Timeline creation",
+      "Registry analysis",
+      "Evidence preservation"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Malware Scanner",
+    "description": "Detect and remove malicious software using behavioral and signature-based analysis.",
+    "category": "Defense",
+    "details": "Our advanced malware detection system combines signature-based detection with behavioral analysis to identify both known and zero-day threats. Protect your systems from ransomware, trojans, rootkits, and other malicious software.",
+    "features": [
+      "Real-time protection",
+      "Behavioral analysis",
+      "Signature detection",
+      "Sandbox analysis",
+      "Automated remediation"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Secure Code Analyzer",
+    "description": "Identify security vulnerabilities in application code before deployment.",
+    "category": "Development",
+    "details": "Integrate security into your development process with our code analysis tool. Scan source code for security vulnerabilities, coding errors, and compliance issues to ensure your applications are secure from the ground up.",
+    "features": [
+      "Static code analysis",
+      "Dependency scanning",
+      "SAST and DAST capabilities",
+      "CI/CD integration",
+      "Remediation guidance"
+    ]
+  }
+] 

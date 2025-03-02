@@ -1,0 +1,220 @@
+{
+  "documentation": [
+    {
+      "id": 1,
+      "title": "CyberGuard User Manual",
+      "description": "Comprehensive guide to using all CyberGuard tools and features",
+      "type": "PDF",
+      "link": "#",
+      "icon": "📄"
+    },
+    {
+      "id": 2,
+      "title": "API Documentation",
+      "description": "Technical documentation for developers integrating with CyberGuard",
+      "type": "Web",
+      "link": "#",
+      "icon": "🔌"
+    },
+    {
+      "id": 3,
+      "title": "Security Best Practices",
+      "description": "Guidelines for implementing robust security measures",
+      "type": "PDF",
+      "link": "#",
+      "icon": "🛡️"
+    },
+    {
+      "id": 4,
+      "title": "Tool Configuration Guide",
+      "description": "Step-by-step instructions for configuring all security tools",
+      "type": "PDF",
+      "link": "#",
+      "icon": "⚙️"
+    },
+    {
+      "id": 5,
+      "title": "Threat Intelligence Reports",
+      "description": "Monthly reports on emerging cyber threats and attack vectors",
+      "type": "PDF",
+      "link": "#",
+      "icon": "📊"
+    },
+    {
+      "id": 6,
+      "title": "Incident Response Playbook",
+      "description": "Detailed procedures for responding to various security incidents",
+      "type": "PDF",
+      "link": "#",
+      "icon": "🚨"
+    }
+  ],
+  "tools": [
+    {
+      "id": 1,
+      "title": "TorFlow Visualization",
+      "description": "Interactive visualization of Tor network traffic patterns",
+      "type": "Web Tool",
+      "link": "https://torflow.uncharted.software/",
+      "icon": "🌐"
+    },
+    {
+      "id": 2,
+      "title": "Password Strength Analyzer",
+      "description": "Test the strength of your passwords against common attacks",
+      "type": "Web Tool",
+      "link": "#",
+      "icon": "🔑"
+    },
+    {
+      "id": 3,
+      "title": "Network Scanner Lite",
+      "description": "Basic version of our network scanning tool",
+      "type": "Download",
+      "link": "#",
+      "icon": "🔍"
+    },
+    {
+      "id": 4,
+      "title": "Encryption Toolkit",
+      "description": "Collection of encryption utilities for secure communications",
+      "type": "Download",
+      "link": "#",
+      "icon": "🔐"
+    },
+    {
+      "id": 5,
+      "title": "Vulnerability Database",
+      "description": "Searchable database of known vulnerabilities and exploits",
+      "type": "Web Tool",
+      "link": "#",
+      "icon": "🐛"
+    },
+    {
+      "id": 6,
+      "title": "Secure Code Analyzer",
+      "description": "Tool to identify security vulnerabilities in your code",
+      "type": "Web Tool",
+      "link": "#",
+      "icon": "📝"
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": 1,
+      "title": "Cybersecurity Career Paths",
+      "description": "Comprehensive guide to career progression in cybersecurity",
+      "type": "Interactive",
+      "link": "#",
+      "icon": "🚀"
+    },
+    {
+      "id": 2,
+      "title": "Ethical Hacking Learning Path",
+      "description": "Structured learning path to master ethical hacking skills",
+      "type": "PDF",
+      "link": "#",
+      "icon": "🎯"
+    },
+    {
+      "id": 3,
+      "title": "Security Certification Guide",
+      "description": "Overview of valuable security certifications and preparation resources",
+      "type": "Web",
+      "link": "#",
+      "icon": "🏆"
+    },
+    {
+      "id": 4,
+      "title": "Defensive Security Roadmap",
+      "description": "Learning path for security professionals focused on defense",
+      "type": "PDF",
+      "link": "#",
+      "icon": "🛡️"
+    },
+    {
+      "id": 5,
+      "title": "Cloud Security Specialization",
+      "description": "Guide to becoming a cloud security specialist",
+      "type": "Interactive",
+      "link": "#",
+      "icon": "☁️"
+    },
+    {
+      "id": 6,
+      "title": "Security Leadership Track",
+      "description": "Path to becoming a CISO or security leader",
+      "type": "PDF",
+      "link": "#",
+      "icon": "👑"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "CyberGuard Annual Conference",
+      "description": "Our flagship event featuring industry experts and hands-on workshops",
+      "date": "October 15-17, 2023",
+      "location": "Virtual & San Francisco, CA",
+      "link": "#",
+      "icon": "🎪"
+    },
+    {
+      "id": 2,
+      "title": "Ethical Hacking Workshop Series",
+      "description": "Monthly workshops covering different aspects of ethical hacking",
+      "date": "First Saturday of every month",
+      "location": "Virtual",
+      "link": "#",
+      "icon": "🔨"
+    },
+    {
+      "id": 3,
+      "title": "Security Tools Demonstration",
+      "description": "Live demonstration of the latest CyberGuard security tools",
+      "date": "July 22, 2023",
+      "location": "Virtual",
+      "link": "#",
+      "icon": "🧰"
+    },
+    {
+      "id": 4,
+      "title": "Cybersecurity Career Fair",
+      "description": "Connect with employers and explore career opportunities in cybersecurity",
+      "date": "September 5, 2023",
+      "location": "Virtual & New York, NY",
+      "link": "#",
+      "icon": "💼"
+    },
+    {
+      "id": 5,
+      "title": "Threat Intelligence Summit",
+      "description": "Deep dive into emerging threats and defensive strategies",
+      "date": "November 10, 2023",
+      "location": "London, UK & Virtual",
+      "link": "#",
+      "icon": "🔍"
+    },
+    {
+      "id": 6,
+      "title": "Security Certification Bootcamp",
+      "description": "Intensive training program to prepare for security certifications",
+      "date": "Various dates",
+      "location": "Multiple locations & Virtual",
+      "link": "#",
+      "icon": "🏋️"
+    }
+  ],
+  "torflow": {
+    "title": "TorFlow Visualization",
+    "description": "TorFlow provides a visualization of the Tor network, showing the flow of traffic between countries. This tool helps security researchers understand global traffic patterns and potential surveillance points. The visualization is provided by Uncharted Software and represents anonymized Tor network data.",
+    "link": "https://torflow.uncharted.software/",
+    "steps": [
+      "loading TorFlow visualization...",
+      "connecting to Tor network data...",
+      "analyzing traffic patterns...",
+      "rendering visualization...",
+      "visualization ready"
+    ]
+  }
+} 
