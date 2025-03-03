@@ -47,10 +47,10 @@ const ContactPage = () => {
         <div className="contact-info">
           <div className="terminal">
             <p>$ contact_info</p>
-            <p>Email: *********@gmail.com</p>
-            <p>Phone: +** **********</p>
-            <p>Location: Nst,Pune,India</p>
-            <p>Hours: Monday-Friday, 9am-6pm </p>
+            <p>Email: info@cyberguard.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Location: Cyber Tower, Silicon Valley</p>
+            <p>Hours: Monday-Friday, 9am-6pm PST</p>
             <p>$ <span className="blink">_</span></p>
           </div>
           
@@ -73,16 +73,63 @@ const ContactPage = () => {
               <button className="btn" onClick={() => setSubmitted(false)}>Send Another Message</button>
             </div>
           ) : (
-            <form
-              action="https://formbase.dev/s/74OPa5RhV74Zk1l"
-              method="POST"
-              encType="multipart/form-data"
-            >
-              <input type="text" name="name" />
-              <input type="email" name="email" />
-              <textarea name="message"></textarea>
-
-              <button type="submit">Submit</button>
+            <form className="contact-form" onSubmit={handleSubmit}>
+              <div className="form-group">
+                <label htmlFor="name">Name</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  value={formData.name} 
+                  onChange={handleChange} 
+                  required 
+                />
+              </div>
+              
+              <div className="form-group">
+                <label htmlFor="email">Email</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  value={formData.email} 
+                  onChange={handleChange} 
+                  required 
+                />
+              </div>
+              
+              <div className="form-group">
+                <label htmlFor="subject">Subject</label>
+                <select 
+                  id="subject" 
+                  name="subject" 
+                  value={formData.subject} 
+                  onChange={handleChange} 
+                  required
+                >
+                  <option value="">Select a subject</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                  <option value="Technical Support">Technical Support</option>
+                  <option value="Partnership">Partnership</option>
+                  <option value="Career">Career Opportunities</option>
+                </select>
+              </div>
+              
+              <div className="form-group">
+                <label htmlFor="message">Message</label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  value={formData.message} 
+                  onChange={handleChange} 
+                  required 
+                  rows={6}
+                ></textarea>
+              </div>
+              
+              <button type="submit" className="btn" disabled={loading}>
+                {loading ? 'Sending...' : 'Send Message'}
+              </button>
             </form>
           )}
         </div>
@@ -215,4 +262,4 @@ const ContactPage = () => {
   )
 }
 
-export default ContactPage
+export default ContactPage 
