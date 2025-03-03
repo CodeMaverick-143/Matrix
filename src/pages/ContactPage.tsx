@@ -108,10 +108,10 @@ const ContactPage = () => {
                   required
                 >
                   <option value="">Select a subject</option>
-                  <option value="General Inquiry">Ethical Hacking</option>
-                  <option value="Technical Support">Application security</option>
-                  <option value="Partnership">Penetration Testing</option>
-                  <option value="Career">Network Security</option>
+                  <option value="Ethical Hacking">Ethical Hacking</option>
+                  <option value="Application security">Application security</option>
+                  <option value="Penetration Testing">Penetration Testing</option>
+                  <option value="Network Security">Network Security</option>
                 </select>
               </div>
               
@@ -262,4 +262,4 @@ const ContactPage = () => {
   )
 }
 
-export default ContactPage 
+export default ContactPage
