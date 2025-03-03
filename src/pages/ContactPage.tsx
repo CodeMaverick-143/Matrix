@@ -108,10 +108,10 @@ const ContactPage = () => {
                   required
                 >
                   <option value="">Select a subject</option>
-                  <option value="General Inquiry">General Inquiry</option>
-                  <option value="Technical Support">Technical Support</option>
-                  <option value="Partnership">Partnership</option>
-                  <option value="Career">Career Opportunities</option>
+                  <option value="General Inquiry">Ethical Hacking</option>
+                  <option value="Technical Support">Application security</option>
+                  <option value="Partnership">Penetration Testing</option>
+                  <option value="Career">Network Security</option>
                 </select>
               </div>
               
