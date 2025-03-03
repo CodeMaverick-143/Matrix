@@ -47,10 +47,10 @@ const ContactPage = () => {
         <div className="contact-info">
           <div className="terminal">
             <p>$ contact_info</p>
-            <p>Email: info@cyberguard.com</p>
-            <p>Phone: +1 (555) 123-4567</p>
-            <p>Location: Cyber Tower, Silicon Valley</p>
-            <p>Hours: Monday-Friday, 9am-6pm PST</p>
+            <p>Email: *********@gmail.com</p>
+            <p>Phone: +** **********</p>
+            <p>Location: Nst,Pune,India</p>
+            <p>Hours: Monday-Friday, 9am-6pm </p>
             <p>$ <span className="blink">_</span></p>
           </div>
           
