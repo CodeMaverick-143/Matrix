@@ -73,63 +73,16 @@ const ContactPage = () => {
               <button className="btn" onClick={() => setSubmitted(false)}>Send Another Message</button>
             </div>
           ) : (
-            <form className="contact-form" onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input 
-                  type="text" 
-                  id="name" 
-                  name="name" 
-                  value={formData.name} 
-                  onChange={handleChange} 
-                  required 
-                />
-              </div>
-              
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input 
-                  type="email" 
-                  id="email" 
-                  name="email" 
-                  value={formData.email} 
-                  onChange={handleChange} 
-                  required 
-                />
-              </div>
-              
-              <div className="form-group">
-                <label htmlFor="subject">Subject</label>
-                <select 
-                  id="subject" 
-                  name="subject" 
-                  value={formData.subject} 
-                  onChange={handleChange} 
-                  required
-                >
-                  <option value="">Select a subject</option>
-                  <option value="General Inquiry">Ethical Hacking</option>
-                  <option value="Technical Support">Application security</option>
-                  <option value="Partnership">Penetration Testing</option>
-                  <option value="Career">Network Security</option>
-                </select>
-              </div>
-              
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea 
-                  id="message" 
-                  name="message" 
-                  value={formData.message} 
-                  onChange={handleChange} 
-                  required 
-                  rows={6}
-                ></textarea>
-              </div>
-              
-              <button type="submit" className="btn" disabled={loading}>
-                {loading ? 'Sending...' : 'Send Message'}
-              </button>
+            <form
+              action="https://formbase.dev/s/74OPa5RhV74Zk1l"
+              method="POST"
+              encType="multipart/form-data"
+            >
+              <input type="text" name="name" />
+              <input type="email" name="email" />
+              <textarea name="message"></textarea>
+
+              <button type="submit">Submit</button>
             </form>
           )}
         </div>
@@ -262,4 +215,4 @@ const ContactPage = () => {
   )
 }
 
-export default ContactPage 
+export default ContactPage
