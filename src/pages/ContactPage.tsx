@@ -7,7 +7,7 @@ const ContactPage = () => {
     subject: '',
     message: ''
   })
-  
+
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
 
@@ -22,7 +22,7 @@ const ContactPage = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
-    
+
     // Simulate form submission
     setTimeout(() => {
       setLoading(false)
@@ -53,7 +53,7 @@ const ContactPage = () => {
             <p>Hours: Monday-Friday, 9am-6pm </p>
             <p>$ <span className="blink">_</span></p>
           </div>
-          
+
           <div className="contact-methods">
             <h3>Connect With Us</h3>
             <div className="social-links">
@@ -63,7 +63,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="contact-form-container">
           {submitted ? (
             <div className="success-message">
@@ -85,7 +85,7 @@ const ContactPage = () => {
                   required 
                 />
               </div>
-              
+
               <div className="form-group">
                 <label htmlFor="email">Email</label>
                 <input 
@@ -97,7 +97,7 @@ const ContactPage = () => {
                   required 
                 />
               </div>
-              
+
               <div className="form-group">
                 <label htmlFor="subject">Subject</label>
                 <select 
@@ -108,13 +108,13 @@ const ContactPage = () => {
                   required
                 >
                   <option value="">Select a subject</option>
-                  <option value="General Inquiry">Ethical Hacking</option>
-                  <option value="Technical Support">Application security</option>
-                  <option value="Partnership">Penetration Testing</option>
-                  <option value="Career">Network Security</option>
+                  <option value="Ethical Hacking">Ethical Hacking</option>
+                  <option value="Application security">Application security</option>
+                  <option value="Penetration Testing">Penetration Testing</option>
+                  <option value="Network Security">Network Security</option>
                 </select>
               </div>
-              
+
               <div className="form-group">
                 <label htmlFor="message">Message</label>
                 <textarea 
@@ -126,7 +126,7 @@ const ContactPage = () => {
                   rows={6}
                 ></textarea>
               </div>
-              
+
               <button type="submit" className="btn" disabled={loading}>
                 {loading ? 'Sending...' : 'Send Message'}
               </button>
@@ -262,4 +262,4 @@ const ContactPage = () => {
   )
 }
 
-export default ContactPage 
+export default ContactPage
