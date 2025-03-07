@@ -56,7 +56,7 @@
       "role": "Core",
       "bio": "",
       "image": "KR.jpg"
-    },
+    }
   ],
   "values": [
     {
@@ -76,4 +76,4 @@
       "description": "We foster a collaborative community where knowledge sharing strengthens our collective security."
     }
   ]
-} 
+}
